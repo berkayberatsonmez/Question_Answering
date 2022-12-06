@@ -1,0 +1,54 @@
+{"intents":
+        [
+          {
+            "tag":  "Living_to_Bedroom",
+            "patterns": ["How can ı go to Bedroom from the living room?", "I am in the Living room and ı want to go Bedroom", "I wanna go to the Bedroom from Living room", "Can you tell me, How can ı go to Bedroom from the living room?"],
+            "responses": ["After exiting the living room, if we go straight to the left, the first room on our left is the bedroom."]
+          },
+          {
+            "tag":  "Living_to_Kitchen",
+            "patterns": ["How can ı go to Kitchen from the living room?", "I am in the Living room and ı want to go Kitchen", "I wanna go to the Kitchen from Living room", "Can you tell me, How can ı go to Kitchen from the living room?"],
+            "responses": ["If we go straight after leaving the living room, we will go to the kitchen."]
+          },
+          {
+            "tag":  "Living_to_Bathroom",
+            "patterns": ["How can ı go to Bathroom from the living room?", "I am in the Living room and ı want to go Bathroom", "I wanna go to the Bathroom from Living room", "Can you tell me, How can ı go to Bathroom from the living room?"],
+            "responses": ["After exiting the hall, if we go straight to the left, the first room on our right is the bathroom."]
+          },
+          {
+            "tag":  "Bedroom_to_Living",
+            "patterns": ["How can ı go to Living room from the Bedroom?", "I am in the Bedroom and ı want to go Living room", "I wanna go to the Living room from Bedroom", "Can you tell me, How can ı go to Living room from the Bedroom?"],
+            "responses": ["After exiting the bedroom, if we go straight to the right, the first room to our right is the living room."]
+          },
+          {
+            "tag":  "Bedroom_to_Bathroom",
+            "patterns": ["How can ı go to Bathroom from the Bedroom?", "I am in the Bedroom and ı want to go Bathroom", "I wanna go to the Bathroom from Bedroom", "Can you tell me, How can ı go to Bathroom from the Bedroom?"],
+            "responses": ["If we go straight after leaving the bedroom, we'll go to the bathroom."]
+          },
+          {
+            "tag":  "Bedroom_to_Kitchen",
+            "patterns": ["How can ı go to Kitchen from the Bedroom?", "I am in the Bedroom and ı want to go Kitchen", "I wanna go to the Kitchen from Bedroom", "Can you tell me, How can ı go to Kitchen from the Bedroom?"],
+            "responses": ["After exiting the bedroom, if we go straight to the right, the first room on our left is the kitchen."]
+          },
+          {
+            "tag":  "toothbrush",
+            "patterns": ["Where is my toothbrush?", "Did you see my toothbrush?", "I am looking my toothbrush", "Can you tell me, where can ı find my toothbrush?"],
+            "responses": ["The toothbrush is on shelf 1 in the closet in the bathroom."]
+          },
+          {
+            "tag":  "greeting",
+            "patterns": ["Hey", "Hello", "What's up?", "How is it going?", "Hi", "Good day"],
+            "responses": ["Hello Sir!", "Hello, what can I do for you?"]
+          },
+          {
+            "tag":  "exit",
+            "patterns": ["Bye", "Stop", "Quite", "I want to quite", "Goodbye", "I want to exit", "I have to go","bye-bye"],
+            "responses": [""]
+          },
+          {
+            "tag":  "thanks",
+            "patterns": ["Thank you", "Thanks", "Thanks a lot"],
+            "responses": [""]
+          }
+        ]
+}
